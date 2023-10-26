@@ -27,7 +27,7 @@ export default function LocaleSwitcher() {
 
   return (
     <button
-      className="transition-opacity absolute -top-24 lg:top-0 right-4 text-sm opacity-50 hover:opacity-80 inline-flex items-center"
+      className="transition-opacity absolute -top-24 lg:-top-12 right-4 text-sm opacity-50 hover:opacity-80 inline-flex items-center"
       onClick={toggleLocale}
       disabled={isPending}
     >
